@@ -21,7 +21,7 @@ public class cell {
 		return leftWall;
 	}
 	
-	public boolean bottomWall(){
+	public boolean getBottom(){
 		return bottomWall;
 	}
 }
