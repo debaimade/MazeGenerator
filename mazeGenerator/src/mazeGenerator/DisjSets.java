@@ -61,10 +61,10 @@ public class DisjSets
          return s[ x ] = find( s[ x ] );
  }
 
- private int [ ] s;
+ public int [ ] s;
 
 
-// // Test main; all finds on same output line should be identical
+ // Test main; all finds on same output line should be identical
 // public static void main( String [ ] args )
 // {
 //     int NumElements = 128;
@@ -82,7 +82,9 @@ public class DisjSets
 //             ds.union( set1, set2 );
 //         }
 //     }
+//     
 //
+//     
 //     for( int i = 0; i < NumElements; i++ )
 //     {
 //         System.out.print( ds.find( i )+ "*" );
