@@ -13,14 +13,14 @@ public class maze {
 			for (int j = 0; j < width; j++) {
 				maze[i][j] = new cell();
 			}
-			topWall += "_";
-			rightWall += "|";
+//			topWall += "_";
+//			rightWall += "|";
 		}
 	}
 
 	public void printMaze() {
 		for (int i = 0; i < height; i++) {
-			System.out.print(topWall.charAt(i));
+//			System.out.print(topWall.charAt(i));
 			for (int j = 0; j < width; j++) {
 				if(maze[i][j].getLeft()){
 					System.out.print("|");
@@ -28,7 +28,7 @@ public class maze {
 				if(maze[i][j].getBottom()){
 					System.out.print("_");
 				}
-				System.out.print(rightWall.charAt(j));
+//				System.out.print(rightWall.charAt(j));
 			}
 			System.out.println();
 		}
